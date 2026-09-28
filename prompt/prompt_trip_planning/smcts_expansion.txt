@@ -6,8 +6,8 @@ In addition, the current plan is also given, describing the generated actions to
 Your task is to generate 5 different choices of next action for the current plan to satisfy the given query.
 If you cannot generate 5 different choices, generate as much as you can.
 
-Note that every generated next action has to be compatible with the current plan.
-The current plan, together with each next action, has to satisfy the constraints and preferences specified by the query.
+Note that the next action has to be consistent with the current plan in the commonsense, especially about the location and flight information.
+The current plan, together with the next action, has to follow the constraints specified by the query.
 
 Each generated action must be separated by "---" !!!
 

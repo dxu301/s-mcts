@@ -1,6 +1,6 @@
 You are a travel planner.
 
-You are given a query describing the user's requirement.
+You are given a query describing the user's requirement and flight information.
 
 Your task is to select the next action of the current plan for satisfying the given query. For every choice of next action, its future situation and visitation number are given.
 The future situation of an action choice describes the summary of the possible plan that this choice could lead to.
@@ -43,6 +43,14 @@ Action choice 3:
 Future situation: <future_situation_3>
 Visitation number: <visit_number_3>
 
+Action choice 4:
+Future situation: <future_situation_4>
+Visitation number: <visit_number_4>
+
+Action choice 5:
+Future situation: <future_situation_5>
+Visitation number: <visit_number_5>
+
 
 Your output format is as below:
 <start_of_COT>
@@ -50,7 +58,7 @@ Your output format is as below:
 <end_of_COT>
 
 <start_of_answer>
-<your answer, the index of selected action, only a number between 1 and 3>
+<your answer, the index of selected action, only a number between 1 and 5>
 <end_of_answer>
 
 
