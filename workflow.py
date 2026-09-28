@@ -456,7 +456,7 @@ class Solver:
         search_tree = [{"index": 0, "current_plan": "", "future_situation": "", "next_action_choices": {}}]
         root_not_updated = -1
         itr_n = 0
-        while root_not_updated < 3:
+        while root_not_updated < 5:
             current_index = 0  # start from root node
             current_node = search_tree[current_index]
             # selection
@@ -474,8 +474,8 @@ class Solver:
                     selection_prompt = selection_prompt.replace(f"<future_situation_{i + 1}>", summary_i)
                     selection_prompt = selection_prompt.replace(f"<visit_number_{i + 1}>", str(visit_num_i))
                     print(f"<visit_number_{i + 1}> --> {visit_num_i}")
-                if len(current_node["next_action_choices"]) < 3:
-                    for i in range(len(current_node["next_action_choices"]) + 1, 4):
+                if len(current_node["next_action_choices"]) < 5:
+                    for i in range(len(current_node["next_action_choices"]) + 1, 6):
                         selection_prompt = selection_prompt.replace(f"Action choice {i}:\n", "")
                         selection_prompt = selection_prompt.replace(f"Future situation: <future_situation_{i}>\n", "")
                         selection_prompt = selection_prompt.replace(f"Visitation number: <visit_number_{i}>", "")
@@ -508,7 +508,7 @@ class Solver:
                     selected_idx = match.group(1).strip()
                     selected_idx = int(selected_idx)
                     selected_idx -= 1  # important !!!
-                    assert 0 <= selected_idx < 3
+                    assert 0 <= selected_idx < 5
                 else:
                     print(selection_output)
                     assert False
@@ -587,7 +587,7 @@ class Solver:
                     assert False
                 if len(expansion_output) > 0:
                     new_actions = expansion_output.split("---")
-                    assert len(new_actions) <= 3
+                    assert len(new_actions) <= 5
                     full_plan_list = []
                     summary_list = []
                     for ch_idx, new_act in enumerate(new_actions):
