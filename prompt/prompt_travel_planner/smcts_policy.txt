@@ -77,11 +77,7 @@ The rules you need to follow are as below :
 2. If no number of people are mentioned in the query, you should assume only 1 person is travelling.
 3. If the query mentions "group of N" people, you should assume N number of people travelling. "maximum occupancy" = N.
 4. Traveling from one city to another needs an explicit transportation, which can cost a whole day. The next day of traveling should include attraction and restaurants, not transportation.
-5. The generated actions should be on the same day which is the next day to the current plan.
-6. The first day is a travel day, and the restaurants and attraction are all "-".
-7. On the last day, the plan should return to the starting city. The action for the last day has no restaurants, attractions or accommodations which should be all "-".
-8. When selecting restaurants and accommodation for a single day, try you best to select cheapest ones.
-9. When the maximum occupancy is less than number of people in the query, you can book multiple rooms to satisfy the query, and accommodation cost will be also multiplied by the number of rooms to book
+5. When the maximum occupancy is less than number of people in the query, you can book multiple rooms to satisfy the query, and accommodation cost will be also multiplied by the number of rooms to book
 
 Strictly follow the format and rules specified above !!!
 
