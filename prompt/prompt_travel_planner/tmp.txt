@@ -1,0 +1,11 @@
+Before judging, you must output Chain-of-thought (CoT), where you explain your thought-process about the judgement.
+Make your CoT as concise as possible !!!
+
+Your output format is as below:
+<start_of_COT>
+<your COT>
+<end_of_COT>
+
+<start_of_judgement>
+<A or B only>
+<end_of_judgement>

@@ -1,0 +1,29 @@
+You are working on a travel planning problem.
+
+You are given a query describing the user's requirement, and reference data for the information of attraction, transportation, restaurant and accommodation.
+Your task is to modify the given query by adding one more preference to make the budget constraint unable to be satisfied, and generate a new query.
+In the new query, the budget constraint should be violated if all the other constraints and preferences are satisfied, and this newly added preference can be satisfied individually.
+
+
+The given query of the user is:
+
+<query>
+
+The reference data for the information of accommodation, transportation, restaurant and attraction is:
+
+<reference_data>
+
+
+Before generating the new query, you must output Chain-of-thought (CoT), where you explain your thought-process about designing new constraints.
+
+
+Your output format is as below:
+<start_of_COT>
+<your COT>
+<end_of_COT>
+
+<start_of_answer>
+<new query, in a single line>
+<end_of_answer>
+
+

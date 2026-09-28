@@ -1,0 +1,30 @@
+You are working on a travel planning problem.
+
+You are given a query describing the user's requirement. You are also given a travel plan.
+Your task is to judge whether the travel plan reaches the max number of days described in the query or not, ignoring other conditions of the query.
+For example, if the travel plan has 7 days and the query asks for a 7-day trip, then the travel plan reaches the max number of day in the query.
+
+Here is the query:
+
+<query>
+
+Here is the travel plan:
+
+<full_plan>
+
+
+Before judging, you must output Chain-of-thought (CoT), where you explain your thought-process about judgement.
+Make your CoT concise !!!
+
+
+Your output format is as below:
+<start_of_COT>
+<your COT>
+<end_of_COT>
+
+<start_of_judgement>
+<Yes on No only>
+<end_of_judgement>
+
+
+

@@ -1,0 +1,1553 @@
+{
+    "trip_planning": {
+        "query": "You plan to visit 10 European cities for 21 days in total. You only take direct flights to commute between cities. You plan to stay in Vienna for 3 days. You want to spend 5 days in Frankfurt. You want to spend 2 days in Oslo. You are going to attend a wedding in Oslo between day 20 and day 21. You want to spend 3 days in Prague. You would like to visit Valencia for 2 days. You want to meet a friend in Valencia between day 17 and day 18. You plan to stay in Dubrovnik for 2 days. You would like to visit Edinburgh for 5 days. From day 1 to day 5, there is a annual show you want to attend in Edinburgh. You plan to stay in London for 2 days. You plan to visit relatives in London between day 12 and day 13. You would like to visit Munich for 3 days. You would like to meet your friends at Munich between day 18 and day 20 to tour together. You would like to visit Budapest for 3 days.\n\nHere are the cities that have direct flights:\nValencia and Munich, Vienna and Munich, Vienna and Valencia, London and Budapest, London and Oslo, Edinburgh and Budapest, Frankfurt and Budapest, Frankfurt and London, Prague and Oslo, Edinburgh and Oslo, Edinburgh and Munich, Prague and Munich, London and Prague, Edinburgh and London, Edinburgh and Frankfurt, Dubrovnik and Munich, Dubrovnik and Vienna, Munich and Oslo, Dubrovnik and Oslo, Budapest and Munich, Frankfurt and Prague, Vienna and London, Frankfurt and Vienna, Frankfurt and Oslo, Frankfurt and Munich, Vienna and Oslo, Vienna and Prague, Budapest and Oslo, Budapest and Prague, London and Valencia, London and Munich, Frankfurt and Dubrovnik, Prague and Valencia, Frankfurt and Valencia, Edinburgh and Prague, Vienna and Budapest.\n\nFind a trip plan of visiting the cities for 21 days by taking direct flights to commute between them.",
+        "solution": "Here is the trip plan for visiting the 10 European cities for 21 days:\n\n**Day 1-5:** Arriving in Edinburgh and visit Edinburgh for 5 days.\n**Day 5:** Fly from Edinburgh to Frankfurt.\n**Day 5-9:** Visit Frankfurt for 5 days.\n**Day 9:** Fly from Frankfurt to Dubrovnik.\n**Day 9-10:** Visit Dubrovnik for 2 days.\n**Day 10:** Fly from Dubrovnik to Vienna.\n**Day 10-12:** Visit Vienna for 3 days.\n**Day 12:** Fly from Vienna to London.\n**Day 12-13:** Visit London for 2 days.\n**Day 13:** Fly from London to Budapest.\n**Day 13-15:** Visit Budapest for 3 days.\n**Day 15:** Fly from Budapest to Prague.\n**Day 15-17:** Visit Prague for 3 days.\n**Day 17:** Fly from Prague to Valencia.\n**Day 17-18:** Visit Valencia for 2 days.\n**Day 18:** Fly from Valencia to Munich.\n**Day 18-20:** Visit Munich for 3 days.\n**Day 20:** Fly from Munich to Oslo.\n**Day 20-21:** Visit Oslo for 2 days."
+    },
+    "meeting_planning": {
+        "query": "You are visiting San Francisco for the day and want to meet as many friends as possible. Solve the problem by considering various different schedules and picking the best one to optimize your goals.\n\nTravel distances (in minutes):\nMarina District to Alamo Square: 15.\nMarina District to Fisherman's Wharf: 10.\nMarina District to Union Square: 16.\nAlamo Square to Marina District: 15.\nAlamo Square to Fisherman's Wharf: 19.\nAlamo Square to Union Square: 14.\nFisherman's Wharf to Marina District: 9.\nFisherman's Wharf to Alamo Square: 20.\nFisherman's Wharf to Union Square: 13.\nUnion Square to Marina District: 18.\nUnion Square to Alamo Square: 15.\nUnion Square to Fisherman's Wharf: 15.\n\nCONSTRAINTS: You arrive at Marina District at 9:00AM. Jessica will be at Alamo Square from 2:30PM to 8:15PM. You'd like to meet Jessica for a minimum of 75 minutes. Ronald will be at Fisherman's Wharf from 3:15PM to 6:30PM. You'd like to meet Ronald for a minimum of 60 minutes. Mary will be at Union Square from 7:00PM to 10:00PM. You'd like to meet Mary for a minimum of 45 minutes.",
+        "solution": "You start at Marina District at 9:00AM. You travel to Alamo Square in 15 minutes and arrive at 9:15AM. You wait until 2:30PM. You meet Jessica for 75 minutes from 2:30PM to 3:45PM. You travel to Fisherman's Wharf in 19 minutes and arrive at 4:04PM. You meet Ronald for 60 minutes from 4:04PM to 5:04PM. You travel to Union Square in 13 minutes and arrive at 5:17PM. You wait until 7:00PM. You meet Mary for 45 minutes from 7:00PM to 7:45PM."
+    },
+    "travel_planner": {
+        "query": "We are planning a 7-day trip for two, leaving from Indianapolis to visit 3 cities in Colorado. We will be traveling from March 20th to March 26th, 2022. Our budget for this trip is $3,800. As far as accommodations are concerned, we would like entire rooms to ourselves. We will not be taking any flights for transportation. We are food lovers and would like to experience Chinese, French, American, and Indian cuisines during our visit.",
+        "solution": "Day 1:\nCurrent City: from Indianapolis to Grand Junction\nTransportation: Self-driving, from Indianapolis to Grand Junction\nBreakfast: -\nAttraction: -\nLunch: -\nDinner: -\nAccommodation: NYC Apartment near Central Park!, Grand Junction\n\nDay 2:\nCurrent City: Grand Junction\nTransportation: -\nBreakfast: Austin's BBQ and Oyster Bar, Grand Junction\nAttraction: Museum of the West, Museums of Western Colorado, Grand Junction\nLunch: Punjab Da Pind, Grand Junction\nDinner: Cha Bar, Grand Junction\nAccommodation: NYC Apartment near Central Park!, Grand Junction\n\nDay 3:\nCurrent City: from Grand Junction to Alamosa\nTransportation: Self-driving, from Grand Junction to Alamosa\nBreakfast: -\nAttraction: -\nLunch: -\nDinner: -\nAccommodation: Private & Quaint West Village Gem!, Alamosa\n\nDay 4:\nCurrent City: Alamosa\nTransportation: -\nBreakfast: Good Luck Cafe, Alamosa\nAttraction: San Luis Valley Museum | Alamosa, Alamosa\nLunch: Lights Camera Action - Air Bar, Alamosa\nDinner: Street Foods by Punjab Grill, Alamosa\nAccommodation: Private & Quaint West Village Gem!, Alamosa\n\nDay 5:\nCurrent City: from Alamosa to Denver\nTransportation: Self-driving, from Alamosa to Denver\nBreakfast: -\nAttraction: -\nLunch: -\nDinner: -\nAccommodation: GORGEOUS Newly-Renovated 2-BR Flat, Denver\n\nDay 6:\nCurrent City: Denver\nTransportation: -\nBreakfast: The Urban Socialite, Denver\nAttraction: Denver Zoo, Denver\nLunch: Woods Spice, Denver\nDinner: Radhika Sweets, Denver\nAccommodation: GORGEOUS Newly-Renovated 2-BR Flat, Denver\n\nDay 7:\nCurrent City: from Denver to Indianapolis\nTransportation: Self-driving, from Denver to Indianapolis\nBreakfast: -\nAttraction: -\nLunch: -\nDinner:-\nAccommodation: -\n",
+        "reference_data": {
+            "Attractions in Buffalo": [
+                {
+                    "Name": "The Buffalo Zoo",
+                    "Latitude": 42.9371231,
+                    "Longitude": -78.85160909999999,
+                    "Address": "300 Parkside Ave, Buffalo, NY 14214, USA",
+                    "Phone": "(716) 837-3900",
+                    "Website": "http://www.buffalozoo.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo and Erie County Botanical Gardens",
+                    "Latitude": 42.827864,
+                    "Longitude": -78.823995,
+                    "Address": "2655 South Park Ave, Buffalo, NY 14218, USA",
+                    "Phone": "(716) 827-1584",
+                    "Website": "https://www.buffalogardens.com/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo AKG Art Museum",
+                    "Latitude": 42.93245,
+                    "Longitude": -78.875618,
+                    "Address": "1285 Elmwood Ave, Buffalo, NY 14222, USA",
+                    "Phone": "(716) 882-8700",
+                    "Website": "https://buffaloakg.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Canalside",
+                    "Latitude": 42.8769278,
+                    "Longitude": -78.8793944,
+                    "Address": "44 Prime St, Buffalo, NY 14202, USA",
+                    "Phone": "Unknown",
+                    "Website": "http://www.buffalowaterfront.com/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Theodore Roosevelt Inaugural National Historic Site",
+                    "Latitude": 42.9014678,
+                    "Longitude": -78.8724841,
+                    "Address": "641 Delaware Ave, Buffalo, NY 14202, USA",
+                    "Phone": "(716) 884-0095",
+                    "Website": "http://trsite.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo Naval Park",
+                    "Latitude": 42.8774855,
+                    "Longitude": -78.8795859,
+                    "Address": "1 Naval, Marina Park S, Buffalo, NY 14202, USA",
+                    "Phone": "(716) 847-1773",
+                    "Website": "http://buffalonavalpark.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo Museum of Science",
+                    "Latitude": 42.9061321,
+                    "Longitude": -78.8436047,
+                    "Address": "1020 Humboldt Pkwy, Buffalo, NY 14211, USA",
+                    "Phone": "(716) 896-5200",
+                    "Website": "https://www.sciencebuff.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Delaware Park",
+                    "Latitude": 42.9326617,
+                    "Longitude": -78.8527295,
+                    "Address": "84 Parkside Ave, Buffalo, NY 14214, USA",
+                    "Phone": "(716) 838-1249",
+                    "Website": "http://www.bfloparks.org/index.php/parks/delaware",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Lafayette Square",
+                    "Latitude": 42.8856691,
+                    "Longitude": -78.87384829999999,
+                    "Address": "415 Main St, Buffalo, NY 14203, USA",
+                    "Phone": "(716) 851-5553",
+                    "Website": "Unknown",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Frank Lloyd Wright's Martin House",
+                    "Latitude": 42.9362328,
+                    "Longitude": -78.84799,
+                    "Address": "125 Jewett Pkwy, Buffalo, NY 14214, USA",
+                    "Phone": "(716) 856-3858",
+                    "Website": "https://martinhouse.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo Harbor State Park",
+                    "Latitude": 42.8510464,
+                    "Longitude": -78.8645251,
+                    "Address": "1111 Fuhrmann Boulevard, Buffalo, NY 14203, USA",
+                    "Phone": "(716) 822-1207",
+                    "Website": "https://parks.ny.gov/parks/buffaloharbor/details.aspx",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo Bricks",
+                    "Latitude": 42.87419309999999,
+                    "Longitude": -78.8776256,
+                    "Address": "Main St, Buffalo, NY 14204, USA",
+                    "Phone": "(716) 854-2314",
+                    "Website": "http://www.workingfordowntown.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo Heritage Carousel",
+                    "Latitude": 42.87554550000001,
+                    "Longitude": -78.87837309999999,
+                    "Address": "44 Prime St, Buffalo, NY 14202, USA",
+                    "Phone": "(716) 493-2110",
+                    "Website": "https://www.buffaloheritagecarousel.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Michigan Street African American",
+                    "Latitude": 42.8868801,
+                    "Longitude": -78.86809679999999,
+                    "Address": "Michigan Ave, Buffalo, NY 14203, USA",
+                    "Phone": "(716) 322-1002",
+                    "Website": "http://www.michiganstreetbuffalo.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Tifft Nature Preserve",
+                    "Latitude": 42.8461684,
+                    "Longitude": -78.85945939999999,
+                    "Address": "1200 Fuhrmann Boulevard, Buffalo, NY 14203, USA",
+                    "Phone": "(716) 825-6397",
+                    "Website": "https://www.tifft.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Iron Island Museum",
+                    "Latitude": 42.8900415,
+                    "Longitude": -78.8114399,
+                    "Address": "998 E Lovejoy St, Buffalo, NY 14206, USA",
+                    "Phone": "(716) 892-3084",
+                    "Website": "http://www.ironislandmuseum.com/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "The Electric Tower",
+                    "Latitude": 42.88868,
+                    "Longitude": -78.8721146,
+                    "Address": "535 Washington St, Buffalo, NY 14203, USA",
+                    "Phone": "(716) 633-2096",
+                    "Website": "http://www.electrictower.com/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo Main Light",
+                    "Latitude": 42.8778401,
+                    "Longitude": -78.8894968,
+                    "Address": "1 Fuhrmann Boulevard, Buffalo, NY 14203, USA",
+                    "Phone": "(716) 264-1707",
+                    "Website": "https://www.facebook.com/Buffalo-Lighthouse-245535252134529/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "The Buffalo History Museum",
+                    "Latitude": 42.9354287,
+                    "Longitude": -78.8762911,
+                    "Address": "1 Museum Ct, Buffalo, NY 14216, USA",
+                    "Phone": "(716) 873-9644",
+                    "Website": "http://www.buffalohistory.org/",
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Buffalo City Hall",
+                    "Latitude": 42.8866194,
+                    "Longitude": -78.879325,
+                    "Address": "65 Niagara Square, Buffalo, NY 14202, USA",
+                    "Phone": "(716) 851-4890",
+                    "Website": "http://www.buffalony.gov/",
+                    "City": "Buffalo"
+                }
+            ],
+            "Restaurants in Buffalo": [
+                {
+                    "Name": "Shokitini",
+                    "Average Cost": 41,
+                    "Cuisines": "Tea, Cafe, Pizza, Mexican, Chinese, Seafood",
+                    "Aggregate Rating": 4.2,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Tibby's New Orleans Kitchen",
+                    "Average Cost": 48,
+                    "Cuisines": "Seafood, Indian, BBQ, Italian",
+                    "Aggregate Rating": 4.7,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Pinch Of Spice",
+                    "Average Cost": 84,
+                    "Cuisines": "Cafe, Desserts, Seafood",
+                    "Aggregate Rating": 4.2,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Maa Kali Foods",
+                    "Average Cost": 61,
+                    "Cuisines": "Desserts, BBQ, Bakery, Fast Food, Indian",
+                    "Aggregate Rating": 0.0,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Punjab Grill",
+                    "Average Cost": 25,
+                    "Cuisines": "Bakery, BBQ, Desserts, Seafood",
+                    "Aggregate Rating": 4.3,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Red Mango",
+                    "Average Cost": 18,
+                    "Cuisines": "Mexican, Bakery, BBQ, Fast Food, Cafe, American",
+                    "Aggregate Rating": 3.6,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Ammu's South Indian Restaurant",
+                    "Average Cost": 80,
+                    "Cuisines": "Desserts, Pizza, French, BBQ, Chinese",
+                    "Aggregate Rating": 2.8,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "HSI Food World",
+                    "Average Cost": 60,
+                    "Cuisines": "Fast Food, Cafe, Seafood",
+                    "Aggregate Rating": 0.0,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Shama Chicken Corner",
+                    "Average Cost": 25,
+                    "Cuisines": "Tea, Chinese, Desserts",
+                    "Aggregate Rating": 3.6,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Nawwarah",
+                    "Average Cost": 34,
+                    "Cuisines": "Cafe, Seafood",
+                    "Aggregate Rating": 3.9,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "The Zuree Urban Kitchen",
+                    "Average Cost": 50,
+                    "Cuisines": "Fast Food, Seafood, Italian",
+                    "Aggregate Rating": 4.4,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Madhuvan Chinese Fast Food",
+                    "Average Cost": 77,
+                    "Cuisines": "Pizza, Italian, Bakery, Fast Food, Seafood",
+                    "Aggregate Rating": 2.5,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Bihar ki Rasoi",
+                    "Average Cost": 90,
+                    "Cuisines": "Tea, Bakery, Desserts",
+                    "Aggregate Rating": 3.5,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Room Service",
+                    "Average Cost": 94,
+                    "Cuisines": "Bakery, Indian, BBQ, Italian",
+                    "Aggregate Rating": 3.4,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Madras Cafe",
+                    "Average Cost": 31,
+                    "Cuisines": "Cafe, Desserts",
+                    "Aggregate Rating": 2.5,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Lutyens Cocktail House",
+                    "Average Cost": 12,
+                    "Cuisines": "Bakery, BBQ, Fast Food",
+                    "Aggregate Rating": 3.9,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Aditya's Kulcha Express",
+                    "Average Cost": 43,
+                    "Cuisines": "Bakery, BBQ, Fast Food, Chinese, Seafood",
+                    "Aggregate Rating": 3.3,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Invitation Foodex",
+                    "Average Cost": 85,
+                    "Cuisines": "Desserts, Pizza, Italian, Bakery, BBQ, Mediterranean",
+                    "Aggregate Rating": 3.2,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Chopsticks",
+                    "Average Cost": 14,
+                    "Cuisines": "Cafe, Seafood, Italian",
+                    "Aggregate Rating": 3.6,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Chily Hut",
+                    "Average Cost": 23,
+                    "Cuisines": "Fast Food, Cafe, Mexican, Seafood",
+                    "Aggregate Rating": 3.2,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "The Chimney Bar-Be-Que",
+                    "Average Cost": 71,
+                    "Cuisines": "Desserts, French, Bakery, BBQ, Seafood",
+                    "Aggregate Rating": 3.6,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Jain Restaurant",
+                    "Average Cost": 78,
+                    "Cuisines": "French, BBQ, Desserts",
+                    "Aggregate Rating": 3.0,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "US Pizza",
+                    "Average Cost": 100,
+                    "Cuisines": "Chinese, Pizza, Bakery, Seafood",
+                    "Aggregate Rating": 2.2,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Mainland China",
+                    "Average Cost": 60,
+                    "Cuisines": "Tea, BBQ, Fast Food, Chinese, Seafood",
+                    "Aggregate Rating": 3.5,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "eastWEST - Radisson Hotel",
+                    "Average Cost": 100,
+                    "Cuisines": "French, Pizza, Seafood",
+                    "Aggregate Rating": 3.3,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "Big Fish Eatery",
+                    "Average Cost": 50,
+                    "Cuisines": "Bakery, BBQ",
+                    "Aggregate Rating": 4.5,
+                    "City": "Buffalo"
+                },
+                {
+                    "Name": "A侓侓k Kahve",
+                    "Average Cost": 14,
+                    "Cuisines": "Chinese, Pizza, Bakery, Seafood",
+                    "Aggregate Rating": 4.0,
+                    "City": "Buffalo"
+                }
+            ],
+            "Accommodations in Buffalo": [
+                {
+                    "NAME": "Cozy Studio in Heart of Ft Greene",
+                    "price": 200.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No pets & No children under 10",
+                    "minimum nights": 4.0,
+                    "maximum occupancy": 3,
+                    "review rate number": 5.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Yankee baseball stay",
+                    "price": 911.0,
+                    "room type": "Private room",
+                    "house_rules": "No visitors",
+                    "minimum nights": 1.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 5.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Williamsburg Gem: Sleep up to 5",
+                    "price": 486.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No smoking & No children under 10",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 4,
+                    "review rate number": 1.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Ideal 3 Bedroom Apartment by Times Square",
+                    "price": 297.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No children under 10",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 2.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Artist Brooklyn Heights Home",
+                    "price": 1069.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No pets",
+                    "minimum nights": 7.0,
+                    "maximum occupancy": 8,
+                    "review rate number": 3.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Garden room in a private house",
+                    "price": 939.0,
+                    "room type": "Private room",
+                    "house_rules": "No children under 10",
+                    "minimum nights": 45.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 4.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Entire, Immaculate 1-Bedroom CHELSEA APARTMENT",
+                    "price": 309.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No smoking & No pets & No parties",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 4.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "A SUPERB One Bedroom Apartment",
+                    "price": 417.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No parties",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 2.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Hospitality on Propsect Pk-12 yrs Hosting Legally!",
+                    "price": 556.0,
+                    "room type": "Private room",
+                    "house_rules": "No smoking & No visitors & No parties",
+                    "minimum nights": 1.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 4.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "@ Amazing Midtown Furnished  Apartment @",
+                    "price": 715.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No parties",
+                    "minimum nights": 30.0,
+                    "maximum occupancy": 7,
+                    "review rate number": 4.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "Beautiful Light Filled Apartment in New York City!",
+                    "price": 299.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No visitors & No parties & No children under 10",
+                    "minimum nights": 1.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 1.0,
+                    "city": "Buffalo"
+                },
+                {
+                    "NAME": "*OH SO ZEN*~ Chill Bushwick Yoga Spot!!",
+                    "price": 948.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No smoking",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 9,
+                    "review rate number": 2.0,
+                    "city": "Buffalo"
+                }
+            ],
+            "Attractions in Niagara Falls": [
+                {
+                    "Name": "Journey Behind the Falls",
+                    "Latitude": 43.0791958,
+                    "Longitude": -79.07849619999999,
+                    "Address": "6650 Niagara River Pkwy, Niagara Falls, ON L2E 6T2, Canada",
+                    "Phone": "(877) 642-7275",
+                    "Website": "https://www.niagaraparks.com/visit/attractions/journey-behind-the-falls/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Niagara SkyWheel",
+                    "Latitude": 43.090929,
+                    "Longitude": -79.0755099,
+                    "Address": "4960 Clifton Hill, Niagara Falls, ON L2G 3N4, Canada",
+                    "Phone": "(905) 358-4793",
+                    "Website": "http://www.cliftonhill.com/attractions/niagara-skywheel",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Cave of the Winds",
+                    "Latitude": 43.0822943,
+                    "Longitude": -79.0713474,
+                    "Address": "Goat Island Rd, Niagara Falls, NY 14303, USA",
+                    "Phone": "(716) 285-0705",
+                    "Website": "https://www.niagarafallsstatepark.com/attractions-and-tours/cave-of-the-winds",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "White Water Walk",
+                    "Latitude": 43.1109554,
+                    "Longitude": -79.0604553,
+                    "Address": "4330 River Rd, Niagara Falls, ON L2G 6T2, Canada",
+                    "Phone": "(877) 642-7275",
+                    "Website": "https://www.niagaraparks.com/visit/attractions/white-water-walk/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Queen Victoria Park",
+                    "Latitude": 43.08662599999999,
+                    "Longitude": -79.077083,
+                    "Address": "6345 Niagara River Pkwy, Niagara Falls, ON L2E 6X8, Canada",
+                    "Phone": "(905) 358-1814",
+                    "Website": "https://www.niagaraparks.com/visit/nature-garden/queen-victoria-park/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Horseshoe Falls of Canada",
+                    "Latitude": 43.0771624,
+                    "Longitude": -79.0757318,
+                    "Address": "6650 Niagara River Pkwy, Niagara Falls, ON L2E 6T2, Canada",
+                    "Phone": "(905) 356-2241",
+                    "Website": "https://www.niagaraparks.com/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Bird Kingdom",
+                    "Latitude": 43.09262809999999,
+                    "Longitude": -79.0687007,
+                    "Address": "5651 River Rd, Niagara Falls, ON L2E 7M7, Canada",
+                    "Phone": "(905) 356-8888",
+                    "Website": "http://www.birdkingdom.ca/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Niagara Falls Observation Tower",
+                    "Latitude": 43.086908,
+                    "Longitude": -79.06879169999999,
+                    "Address": "332 Prospect St, Niagara Falls, NY 14303, USA",
+                    "Phone": "(716) 278-1794",
+                    "Website": "https://www.niagarafallsstatepark.com/attractions-and-tours/observation-tower",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Skylon Tower",
+                    "Latitude": 43.08509309999999,
+                    "Longitude": -79.07956200000001,
+                    "Address": "5200 Robinson St, Niagara Falls, ON L2G 2A2, Canada",
+                    "Phone": "(905) 356-2651",
+                    "Website": "https://www.skylon.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=Yrly",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Niagara Glen Nature Centre",
+                    "Latitude": 43.1291667,
+                    "Longitude": -79.06,
+                    "Address": "3050 Niagara River Pkwy, Niagara Falls, ON L2E, Canada",
+                    "Phone": "(905) 354-6678",
+                    "Website": "https://www.niagaraparks.com/visit/attractions/niagara-glen-nature-centre",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Fallsview Tourist Area",
+                    "Latitude": 43.0826352,
+                    "Longitude": -79.0832261,
+                    "Address": "5305 Murray St, Niagara Falls, ON L2G 3W6, Canada",
+                    "Phone": "(514) 446-6789",
+                    "Website": "Unknown",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Butterfly Conservatory",
+                    "Latitude": 43.1370218,
+                    "Longitude": -79.0555897,
+                    "Address": "2565 Niagara River Pkwy, Niagara-on-the-Lake, ON L0S 1J0, Canada",
+                    "Phone": "(905) 358-0025",
+                    "Website": "https://www.niagaraparks.com/visit/attractions/butterfly-conservatory/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Great Canadian Midway",
+                    "Latitude": 43.09110469999999,
+                    "Longitude": -79.0746084,
+                    "Address": "4848 Clifton Hill, Niagara Falls, ON L2G 3N4, Canada",
+                    "Phone": "(905) 358-3676",
+                    "Website": "https://www.cliftonhill.com/attractions/great-canadian-midway",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Aquarium of Niagara",
+                    "Latitude": 43.0943442,
+                    "Longitude": -79.0598962,
+                    "Address": "701 Whirlpool St, Niagara Falls, NY 14301, USA",
+                    "Phone": "(716) 285-3575",
+                    "Website": "http://www.aquariumofniagara.org/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Niagara Falls Canada",
+                    "Latitude": 43.09142919999999,
+                    "Longitude": -79.0709396,
+                    "Address": "5704 Falls Ave, Niagara Falls, ON L2G 3K7, Canada",
+                    "Phone": "(289) 800-2800",
+                    "Website": "http://www.canadianshuttle.com/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Table Rock Welcome Centre",
+                    "Latitude": 43.0791675,
+                    "Longitude": -79.0788306,
+                    "Address": "6650 Niagara River Pkwy, Niagara Falls, ON L2E 6T2, Canada",
+                    "Phone": "(905) 358-3268",
+                    "Website": "http://www.niagaraparks.com/visit/welcome-centres/table-rock-centre/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Niagara's Fury",
+                    "Latitude": 43.079258,
+                    "Longitude": -79.0788046,
+                    "Address": "6650 Niagara River Pkwy, Niagara Falls, ON L2G 0L0, Canada",
+                    "Phone": "(905) 358-3268",
+                    "Website": "https://www.niagaraparks.com/visit/attractions/niagaras-fury/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Niagara Falls Fireworks",
+                    "Latitude": 43.0841316,
+                    "Longitude": -79.0764402,
+                    "Address": "6660 Niagara River Pkwy, Niagara Falls, ON L2G 3N4, Canada",
+                    "Phone": "(905) 356-6061",
+                    "Website": "https://www.niagarafallstourism.com/fireworks/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Fallsview Indoor Waterpark",
+                    "Latitude": 43.092463,
+                    "Longitude": -79.07175800000002,
+                    "Address": "5685 Falls Ave, Niagara Falls, ON L2E 6W7, Canada",
+                    "Phone": "(905) 374-4444",
+                    "Website": "https://www.fallsviewwaterpark.com/",
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Whirlpool Aero Car",
+                    "Latitude": 43.1180306,
+                    "Longitude": -79.0687889,
+                    "Address": "3850 Niagara River Pkwy, Niagara Falls, ON L2E 3E8, Canada",
+                    "Phone": "(877) 642-7275",
+                    "Website": "https://www.niagaraparks.com/visit/attractions/whirlpool-aero-car/",
+                    "City": "Niagara Falls"
+                }
+            ],
+            "Restaurants in Niagara Falls": [
+                {
+                    "Name": "Izakaya Kikufuji",
+                    "Average Cost": 66,
+                    "Cuisines": "Desserts, Pizza, French, Fast Food, Mediterranean, Seafood",
+                    "Aggregate Rating": 4.5,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Tony Roma's",
+                    "Average Cost": 47,
+                    "Cuisines": "Desserts, Tea, French, Fast Food, Cafe, Mediterranean",
+                    "Aggregate Rating": 3.3,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Pier 70",
+                    "Average Cost": 60,
+                    "Cuisines": "Tea, Bakery, Mediterranean, Seafood",
+                    "Aggregate Rating": 2.6,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Scratch",
+                    "Average Cost": 19,
+                    "Cuisines": "Tea, American, Seafood",
+                    "Aggregate Rating": 3.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Raju Dhaba",
+                    "Average Cost": 67,
+                    "Cuisines": "American, Desserts, Seafood",
+                    "Aggregate Rating": 2.9,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Sri Meenakshi South Indian Food",
+                    "Average Cost": 77,
+                    "Cuisines": "Tea, Seafood, Bakery, Italian",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Burger Point",
+                    "Average Cost": 59,
+                    "Cuisines": "Tea, American, BBQ",
+                    "Aggregate Rating": 3.6,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Barista Creme Lavazza",
+                    "Average Cost": 51,
+                    "Cuisines": "Tea, Pizza, Mexican, Fast Food, American",
+                    "Aggregate Rating": 3.2,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Hot Fork",
+                    "Average Cost": 14,
+                    "Cuisines": "Fast Food, Bakery, Seafood",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Divine Bites",
+                    "Average Cost": 11,
+                    "Cuisines": "Desserts, Tea, French, Bakery, Fast Food, Chinese",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Dilli Light",
+                    "Average Cost": 71,
+                    "Cuisines": "BBQ, Mediterranean, Desserts",
+                    "Aggregate Rating": 2.6,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Natraj Dahi Bhalle Wala",
+                    "Average Cost": 88,
+                    "Cuisines": "Tea, Cafe, Indian, Fast Food",
+                    "Aggregate Rating": 3.9,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Lala Chaap Corner",
+                    "Average Cost": 31,
+                    "Cuisines": "Tea, Pizza, Cafe, Mediterranean, Seafood",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Rollplay",
+                    "Average Cost": 83,
+                    "Cuisines": "Tea, Bakery, BBQ, Seafood",
+                    "Aggregate Rating": 2.9,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Tamura",
+                    "Average Cost": 11,
+                    "Cuisines": "Chinese, Pizza, Indian, BBQ",
+                    "Aggregate Rating": 3.5,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Singz",
+                    "Average Cost": 40,
+                    "Cuisines": "Tea, Mexican, Bakery, Italian",
+                    "Aggregate Rating": 2.9,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Meenu Caterers",
+                    "Average Cost": 25,
+                    "Cuisines": "Tea, Cafe, BBQ, Fast Food",
+                    "Aggregate Rating": 2.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Giani's",
+                    "Average Cost": 74,
+                    "Cuisines": "Pizza, Indian, Seafood",
+                    "Aggregate Rating": 3.5,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Khana Vaana",
+                    "Average Cost": 80,
+                    "Cuisines": "Bakery, BBQ, Cafe, Desserts",
+                    "Aggregate Rating": 3.4,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Jeeta Kulfi Walle",
+                    "Average Cost": 51,
+                    "Cuisines": "Cafe, Mediterranean, Desserts",
+                    "Aggregate Rating": 3.3,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Buddy 's. Pizza",
+                    "Average Cost": 50,
+                    "Cuisines": "Tea, BBQ",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Giani's",
+                    "Average Cost": 44,
+                    "Cuisines": "Seafood, Bakery, Desserts, Fast Food",
+                    "Aggregate Rating": 3.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "KT's Shik-Shack",
+                    "Average Cost": 25,
+                    "Cuisines": "BBQ, Fast Food",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Biryani Express",
+                    "Average Cost": 28,
+                    "Cuisines": "Tea, Pizza, Seafood",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Hype",
+                    "Average Cost": 88,
+                    "Cuisines": "Bakery, Pizza, Desserts, Seafood",
+                    "Aggregate Rating": 3.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Pudding & Pie",
+                    "Average Cost": 61,
+                    "Cuisines": "Pizza, BBQ, Fast Food",
+                    "Aggregate Rating": 2.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "361 Restaurant & Banquet",
+                    "Average Cost": 86,
+                    "Cuisines": "Tea, Cafe, Pizza, Bakery",
+                    "Aggregate Rating": 3.4,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Baskin Robbins",
+                    "Average Cost": 39,
+                    "Cuisines": "Desserts, Tea, Bakery, Fast Food, American",
+                    "Aggregate Rating": 0.0,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Everest Momos & Chinese Fast Food",
+                    "Average Cost": 23,
+                    "Cuisines": "Cafe, Pizza",
+                    "Aggregate Rating": 3.2,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Polka Pastry & Snack Bar",
+                    "Average Cost": 62,
+                    "Cuisines": "Tea, Bakery, BBQ, Seafood",
+                    "Aggregate Rating": 3.4,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Capital Grill",
+                    "Average Cost": 74,
+                    "Cuisines": "French, Pizza, BBQ",
+                    "Aggregate Rating": 3.8,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Little Punjab",
+                    "Average Cost": 13,
+                    "Cuisines": "Italian, Mexican, Bakery, Fast Food, Cafe, Seafood",
+                    "Aggregate Rating": 3.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Meghraj Sweets",
+                    "Average Cost": 63,
+                    "Cuisines": "Desserts, Pizza, Mexican, Bakery, Fast Food",
+                    "Aggregate Rating": 3.2,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "DIOS The Neighbourhood Bistro",
+                    "Average Cost": 62,
+                    "Cuisines": "Tea, BBQ, Desserts, Italian",
+                    "Aggregate Rating": 4.2,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Giapo",
+                    "Average Cost": 37,
+                    "Cuisines": "Pizza, Seafood",
+                    "Aggregate Rating": 4.7,
+                    "City": "Niagara Falls"
+                },
+                {
+                    "Name": "Cafe Del Sol Botanico",
+                    "Average Cost": 78,
+                    "Cuisines": "Tea, Cafe, Italian, Bakery, Fast Food, Chinese",
+                    "Aggregate Rating": 4.4,
+                    "City": "Niagara Falls"
+                }
+            ],
+            "Accommodations in Niagara Falls": [
+                {
+                    "NAME": "Sunny Bedroom In The Heart of Bushwick",
+                    "price": 893.0,
+                    "room type": "Private room",
+                    "house_rules": "No pets & No parties",
+                    "minimum nights": 3.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 1.0,
+                    "city": "Niagara Falls"
+                },
+                {
+                    "NAME": "Sunny Spacious South Slope Studio",
+                    "price": 337.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No parties & No smoking",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 3,
+                    "review rate number": 4.0,
+                    "city": "Niagara Falls"
+                },
+                {
+                    "NAME": "Apartment in the Heart of Manhattan",
+                    "price": 694.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No smoking",
+                    "minimum nights": 14.0,
+                    "maximum occupancy": 3,
+                    "review rate number": 3.0,
+                    "city": "Niagara Falls"
+                },
+                {
+                    "NAME": "Harlem Oasis",
+                    "price": 244.0,
+                    "room type": "Private room",
+                    "house_rules": "No visitors & No smoking & No parties",
+                    "minimum nights": 1.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 2.0,
+                    "city": "Niagara Falls"
+                },
+                {
+                    "NAME": "HUGE, SUNNY room in Financial District",
+                    "price": 59.0,
+                    "room type": "Private room",
+                    "house_rules": "No visitors & No pets",
+                    "minimum nights": 4.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 5.0,
+                    "city": "Niagara Falls"
+                },
+                {
+                    "NAME": "Private Guestroom in Landmark Bklyn Brownstone",
+                    "price": 1005.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No parties",
+                    "minimum nights": 1.0,
+                    "maximum occupancy": 5,
+                    "review rate number": 2.0,
+                    "city": "Niagara Falls"
+                },
+                {
+                    "NAME": "Central Park South Luxury 2 Bedroom 2 Bathroom",
+                    "price": 371.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No parties",
+                    "minimum nights": 29.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 5.0,
+                    "city": "Niagara Falls"
+                }
+            ],
+            "Attractions in New York": [
+                {
+                    "Name": "Top of The Rock",
+                    "Latitude": 40.75934950000001,
+                    "Longitude": -73.9794087,
+                    "Address": "30 Rockefeller Plaza, New York, NY 10112, USA",
+                    "Phone": "(212) 698-2000",
+                    "Website": "https://www.rockefellercenter.com/attractions/top-of-the-rock-observation-deck/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "One World Observatory",
+                    "Latitude": 40.7130062,
+                    "Longitude": -74.013173,
+                    "Address": "117 West St, New York, NY 10007, USA",
+                    "Phone": "(844) 696-1776",
+                    "Website": "https://oneworldobservatory.com/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "SUMMIT One Vanderbilt",
+                    "Latitude": 40.752764,
+                    "Longitude": -73.9787461,
+                    "Address": "45 E 42nd St, New York, NY 10017, USA",
+                    "Phone": "Unknown",
+                    "Website": "http://www.summitov.com/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Rockefeller Center",
+                    "Latitude": 40.7587402,
+                    "Longitude": -73.9786736,
+                    "Address": "45 Rockefeller Plaza, New York, NY 10111, USA",
+                    "Phone": "(212) 588-8601",
+                    "Website": "https://www.rockefellercenter.com/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Statue of Liberty",
+                    "Latitude": 40.6892494,
+                    "Longitude": -74.04450039999999,
+                    "Address": "New York, NY 10004, USA",
+                    "Phone": "(212) 363-3200",
+                    "Website": "https://www.nps.gov/stli/index.htm",
+                    "City": "New York"
+                },
+                {
+                    "Name": "The High Line",
+                    "Latitude": 40.7479925,
+                    "Longitude": -74.0047649,
+                    "Address": "New York, NY 10011, USA",
+                    "Phone": "(212) 500-6035",
+                    "Website": "https://www.thehighline.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Empire State Building",
+                    "Latitude": 40.7484405,
+                    "Longitude": -73.98566439999999,
+                    "Address": "20 W 34th St., New York, NY 10001, USA",
+                    "Phone": "(212) 736-3100",
+                    "Website": "https://www.esbnyc.com/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Brooklyn Bridge",
+                    "Latitude": 40.7060855,
+                    "Longitude": -73.9968643,
+                    "Address": "New York, NY 10038, USA",
+                    "Phone": "Unknown",
+                    "Website": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml",
+                    "City": "New York"
+                },
+                {
+                    "Name": "9/11 Memorial & Museum",
+                    "Latitude": 40.7115776,
+                    "Longitude": -74.0133362,
+                    "Address": "180 Greenwich St, New York, NY 10007, USA",
+                    "Phone": "(212) 312-8800",
+                    "Website": "https://www.911memorial.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Flatiron Building",
+                    "Latitude": 40.7410605,
+                    "Longitude": -73.9896986,
+                    "Address": "175 5th Ave, New York, NY 10010, USA",
+                    "Phone": "Unknown",
+                    "Website": "Unknown",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Times Square",
+                    "Latitude": 40.7579747,
+                    "Longitude": -73.9855426,
+                    "Address": "Manhattan, NY 10036, USA",
+                    "Phone": "Unknown",
+                    "Website": "https://www.timessquarenyc.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "RiseNY",
+                    "Latitude": 40.75762069999999,
+                    "Longitude": -73.98517609999999,
+                    "Address": "160 W 45th St, New York, NY 10036, USA",
+                    "Phone": "(718) 701-4998",
+                    "Website": "https://riseny.co/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "The Channel Gardens",
+                    "Latitude": 40.7585013,
+                    "Longitude": -73.97808700000002,
+                    "Address": "New York, NY 10020, USA",
+                    "Phone": "Unknown",
+                    "Website": "https://www.rockefellercenter.com/attractions/the-channel-gardens/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "The Battery",
+                    "Latitude": 40.70293119999999,
+                    "Longitude": -74.0153603,
+                    "Address": "Battery Park City, New York, NY 10004, USA",
+                    "Phone": "(212) 344-3491",
+                    "Website": "https://www.thebattery.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Central Park",
+                    "Latitude": 40.7825547,
+                    "Longitude": -73.9655834,
+                    "Address": "New York, NY, USA",
+                    "Phone": "(212) 310-6600",
+                    "Website": "https://www.centralparknyc.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Tenement Museum",
+                    "Latitude": 40.71881799999999,
+                    "Longitude": -73.9900876,
+                    "Address": "103 Orchard St, New York, NY 10002, USA",
+                    "Phone": "(877) 975-3786",
+                    "Website": "https://www.tenement.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "MUSEUM OF ICE CREAM",
+                    "Latitude": 40.7238545,
+                    "Longitude": -73.99791669999999,
+                    "Address": "558 Broadway, New York, NY 10012, USA",
+                    "Phone": "Unknown",
+                    "Website": "https://www.museumoficecream.com/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Radio City Music Hall",
+                    "Latitude": 40.75997599999999,
+                    "Longitude": -73.9799772,
+                    "Address": "1260 6th Ave, New York, NY 10020, USA",
+                    "Phone": "(212) 465-6000",
+                    "Website": "https://www.msg.com/radio-city-music-hall",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Pier 46 at Hudson River Park",
+                    "Latitude": 40.7341889,
+                    "Longitude": -74.011265,
+                    "Address": "Hudson River Greenway, New York, NY 10014, USA",
+                    "Phone": "(212) 627-2020",
+                    "Website": "http://hudsonriverpark.org/",
+                    "City": "New York"
+                },
+                {
+                    "Name": "Tiffany Street Clock",
+                    "Latitude": 40.74198140000001,
+                    "Longitude": -73.9893778,
+                    "Address": "200 5th Ave, New York, NY 10010, USA",
+                    "Phone": "Unknown",
+                    "Website": "Unknown",
+                    "City": "New York"
+                }
+            ],
+            "Restaurants in New York": [
+                {
+                    "Name": "Seasons 52 Fresh Grill",
+                    "Average Cost": 30,
+                    "Cuisines": "Seafood, Indian, Desserts, Italian",
+                    "Aggregate Rating": 4.4,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Gurgaon Hights",
+                    "Average Cost": 46,
+                    "Cuisines": "Cafe, American, Indian, Fast Food",
+                    "Aggregate Rating": 2.5,
+                    "City": "New York"
+                },
+                {
+                    "Name": "G Dot",
+                    "Average Cost": 75,
+                    "Cuisines": "Cafe, Mexican, BBQ",
+                    "Aggregate Rating": 2.4,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Rambhog",
+                    "Average Cost": 95,
+                    "Cuisines": "Tea, Seafood, Mexican, Fast Food",
+                    "Aggregate Rating": 3.3,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Green Chick Chop",
+                    "Average Cost": 26,
+                    "Cuisines": "Tea, French, Cafe, Seafood",
+                    "Aggregate Rating": 3.3,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Lord of the Drinks Forum",
+                    "Average Cost": 71,
+                    "Cuisines": "Cafe, Bakery, BBQ, Chinese, Indian",
+                    "Aggregate Rating": 4.2,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Goosebumps",
+                    "Average Cost": 94,
+                    "Cuisines": "Chinese, Pizza, Bakery",
+                    "Aggregate Rating": 3.2,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Aryan's Rajasthani Pyaz Ki Kachori",
+                    "Average Cost": 17,
+                    "Cuisines": "Cafe, Pizza, Indian, Seafood",
+                    "Aggregate Rating": 3.1,
+                    "City": "New York"
+                },
+                {
+                    "Name": "QD's Restaurant",
+                    "Average Cost": 93,
+                    "Cuisines": "Tea, Desserts, Indian, BBQ",
+                    "Aggregate Rating": 4.1,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Golooji's Chat Waat",
+                    "Average Cost": 53,
+                    "Cuisines": "Pizza, BBQ",
+                    "Aggregate Rating": 3.3,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Sir John Bakery Cafe",
+                    "Average Cost": 78,
+                    "Cuisines": "Pizza, Bakery, Desserts",
+                    "Aggregate Rating": 3.4,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Shree Rathnam",
+                    "Average Cost": 91,
+                    "Cuisines": "Tea, Bakery, Fast Food, American, Seafood",
+                    "Aggregate Rating": 3.4,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Domino's Pizza",
+                    "Average Cost": 86,
+                    "Cuisines": "Tea, French, Pizza, Indian",
+                    "Aggregate Rating": 3.3,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Sugary Affairs",
+                    "Average Cost": 55,
+                    "Cuisines": "Desserts, Tea, Fast Food, Cafe, Indian",
+                    "Aggregate Rating": 3.0,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Sugar Rush",
+                    "Average Cost": 89,
+                    "Cuisines": "Tea, Chinese, Pizza, Cafe",
+                    "Aggregate Rating": 0.0,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Amchur",
+                    "Average Cost": 67,
+                    "Cuisines": "Tea, Bakery, American",
+                    "Aggregate Rating": 2.9,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Kamal Chat Bhandar",
+                    "Average Cost": 36,
+                    "Cuisines": "Chinese, Bakery, BBQ",
+                    "Aggregate Rating": 0.0,
+                    "City": "New York"
+                },
+                {
+                    "Name": "736 A.D.",
+                    "Average Cost": 99,
+                    "Cuisines": "Desserts, Bakery, Fast Food, American, Mediterranean",
+                    "Aggregate Rating": 4.1,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Garam Masala Food Corner",
+                    "Average Cost": 40,
+                    "Cuisines": "Pizza, Bakery, Desserts",
+                    "Aggregate Rating": 3.3,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Green Restaurant",
+                    "Average Cost": 74,
+                    "Cuisines": "Tea, Cafe, Bakery, Desserts",
+                    "Aggregate Rating": 0.0,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Hungry Ullu",
+                    "Average Cost": 94,
+                    "Cuisines": "Tea, Bakery",
+                    "Aggregate Rating": 3.3,
+                    "City": "New York"
+                },
+                {
+                    "Name": "The Best",
+                    "Average Cost": 79,
+                    "Cuisines": "Tea, Chinese, Cafe",
+                    "Aggregate Rating": 3.4,
+                    "City": "New York"
+                },
+                {
+                    "Name": "Baltazar",
+                    "Average Cost": 46,
+                    "Cuisines": "Tea, Fast Food, Bakery, Seafood",
+                    "Aggregate Rating": 4.3,
+                    "City": "New York"
+                }
+            ],
+            "Accommodations in New York": [
+                {
+                    "NAME": "Versatile private room in Harlem/Hamilton Heights!",
+                    "price": 398.0,
+                    "room type": "Private room",
+                    "house_rules": "No pets & No visitors & No parties",
+                    "minimum nights": 4.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 5.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Beautiful and big 1BR sublet close by Central Park",
+                    "price": 983.0,
+                    "room type": "Private room",
+                    "house_rules": "No parties & No children under 10",
+                    "minimum nights": 5.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 5.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "A Contemporary Homelike Stay in the Best of BK",
+                    "price": 228.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No pets & No visitors & No children under 10",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 2.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Charming Bright Room in Bed Stuy Brownstone",
+                    "price": 1064.0,
+                    "room type": "Private room",
+                    "house_rules": "No visitors & No smoking & No pets",
+                    "minimum nights": 30.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 3.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Spacious Bedroom in Prime Brooklyn Location",
+                    "price": 782.0,
+                    "room type": "Private room",
+                    "house_rules": "No parties & No pets",
+                    "minimum nights": 3.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 4.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Cool Downtown Apartment in Great Location",
+                    "price": 997.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No pets",
+                    "minimum nights": 4.0,
+                    "maximum occupancy": 7,
+                    "review rate number": 4.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Modern Brooklyn oasis (PRIVATE ROOM)",
+                    "price": 403.0,
+                    "room type": "Private room",
+                    "house_rules": "No children under 10",
+                    "minimum nights": 1.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 5.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Magical rowhouse and garden in Williamsburg",
+                    "price": 189.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No parties",
+                    "minimum nights": 4.0,
+                    "maximum occupancy": 3,
+                    "review rate number": 1.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Large Bed-Stuy Apartment",
+                    "price": 132.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No visitors",
+                    "minimum nights": 6.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 4.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "IN MINT CONDITION-1BR&TERRACE-E 44TH/UNITED NATION",
+                    "price": 297.0,
+                    "room type": "Entire home/apt",
+                    "house_rules": "No pets",
+                    "minimum nights": 30.0,
+                    "maximum occupancy": 2,
+                    "review rate number": 4.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Spacious Private Access Near Trains M - L and J",
+                    "price": 800.0,
+                    "room type": "Private room",
+                    "house_rules": "No pets",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 4.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "Sunny + Spacious Master Bedroom with Outdoor Deck",
+                    "price": 109.0,
+                    "room type": "Private room",
+                    "house_rules": "No pets",
+                    "minimum nights": 3.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 5.0,
+                    "city": "New York"
+                },
+                {
+                    "NAME": "✈ NYC/Travelers. New Private Access Room Bed Full",
+                    "price": 1158.0,
+                    "room type": "Private room",
+                    "house_rules": "No pets",
+                    "minimum nights": 2.0,
+                    "maximum occupancy": 1,
+                    "review rate number": 5.0,
+                    "city": "New York"
+                }
+            ],
+            "Flight from Greensboro to Buffalo on 2022-03-20": "There is no flight from Greensboro to Buffalo on 2022-03-20.",
+            "Self-driving from Greensboro to Buffalo": "self-driving, from Greensboro to Buffalo, duration: 9 hours 40 mins, distance: 1,023 km, cost: 51",
+            "Taxi from Greensboro to Buffalo": "taxi, from Greensboro to Buffalo, duration: 9 hours 40 mins, distance: 1,023 km, cost: 1023",
+            "Flight from Buffalo to Niagara Falls on 2022-03-22": "There is no flight from Buffalo to Niagara Falls on 2022-03-22.",
+            "Self-driving from Buffalo to Niagara Falls": "self-driving, from Buffalo to Niagara Falls, duration: 26 mins, distance: 31.9 km, cost: 1",
+            "Taxi from Buffalo to Niagara Falls": "taxi, from Buffalo to Niagara Falls, duration: 26 mins, distance: 31.9 km, cost: 31",
+            "Flight from Niagara Falls to New York on 2022-03-24": "There is no flight from Niagara Falls to New York on 2022-03-24.",
+            "Self-driving from Niagara Falls to New York": "self-driving, from Niagara Falls to New York, duration: 6 hours 29 mins, distance: 657 km, cost: 32",
+            "Taxi from Niagara Falls to New York": "taxi, from Niagara Falls to New York, duration: 6 hours 29 mins, distance: 657 km, cost: 657",
+            "Flight from New York to Greensboro on 2022-03-26": [
+                {
+                    "Flight Number": "F3646876",
+                    "Price": 157,
+                    "DepTime": "08:19",
+                    "ArrTime": "09:59",
+                    "ActualElapsedTime": "1 hours 40 minutes",
+                    "FlightDate": "2022-03-26",
+                    "OriginCityName": "New York",
+                    "DestCityName": "Greensboro",
+                    "Distance": 461.0
+                },
+                {
+                    "Flight Number": "F3648828",
+                    "Price": 203,
+                    "DepTime": "15:21",
+                    "ArrTime": "17:02",
+                    "ActualElapsedTime": "1 hours 41 minutes",
+                    "FlightDate": "2022-03-26",
+                    "OriginCityName": "New York",
+                    "DestCityName": "Greensboro",
+                    "Distance": 461.0
+                },
+                {
+                    "Flight Number": "F4050842",
+                    "Price": 111,
+                    "DepTime": "13:55",
+                    "ArrTime": "15:33",
+                    "ActualElapsedTime": "1 hours 38 minutes",
+                    "FlightDate": "2022-03-26",
+                    "OriginCityName": "New York",
+                    "DestCityName": "Greensboro",
+                    "Distance": 461.0
+                },
+                {
+                    "Flight Number": "F4050935",
+                    "Price": 199,
+                    "DepTime": "19:58",
+                    "ArrTime": "21:34",
+                    "ActualElapsedTime": "1 hours 36 minutes",
+                    "FlightDate": "2022-03-26",
+                    "OriginCityName": "New York",
+                    "DestCityName": "Greensboro",
+                    "Distance": 461.0
+                }
+            ],
+            "Self-driving from New York to Greensboro": "self-driving, from New York to Greensboro, duration: 8 hours 19 mins, distance: 870 km, cost: 43",
+            "Taxi from New York to Greensboro": "taxi, from New York to Greensboro, duration: 8 hours 19 mins, distance: 870 km, cost: 870"
+        }
+    }
+}

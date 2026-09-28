@@ -1,0 +1,28 @@
+You are working on a travel planning problem.
+
+You are given a query describing the user's request.
+In addition, you are given summaries of two plans A and B. Based on given summaries, your task is to select the plan which best satisfies the given query.
+Specifically, you need to select the plan which is more consistent with the constraints and preferences of the given query than the other.
+
+If plan A is selected, generate A.
+If plan B is selected, generate B.
+If plan A and B are similar, generate B.
+
+You should try your best to select the feasible plan according to the summary.
+If both plans are infeasible, select the one which is closer to the satisfaction of the given query.
+
+If constraints and preferences in the query are satisfied by both plans, select the plan A only when its total cost is at least 300 dollars lower than plan B !!!
+
+
+The given query of the user is:
+
+<query>
+
+
+The summary of plan A: <summary_A>
+
+
+The summary of plan B: <summary_B>
+
+
+Generate A or B only. Do not generate anything else !!!

@@ -1,0 +1,88 @@
+You are a travel planner.
+
+You are given a query describing the user's requirement, and reference data describing possible choices of attractions, restaurants, accommodations and transport. The reference data is represented in JSON.
+In addition, the current plan is also given, describing the generated actions to satisfy the given query. In the initial planning step, the current plan is empty ([]).
+
+Your task is to generate next action for the current plan to satisfy the given query.
+You need to select attractions, restaurants, accommodations and transport from the given reference data to generate action.
+
+Note that the next action has to be consistent with the current plan in the commonsense, especially about the transportation.
+The current plan, together with the next action, has to follow the constraints and preferences specified by the query.
+For example, the total cost of the current plan, together with the next action, should be smaller than the budget, and the cuisine of restaurants should follow the preferences in the query.
+
+Note that the generated next action should not contradict with the query, based on the information in the reference data.
+For example, the minimum nights and occupancy of accommodation in the next action should be compatible with the requirement in the query.
+
+
+Here is an example query:
+
+<example_query>
+
+Here is an example travel plan satisfying the example query:
+
+<example_plan>
+
+
+The given query of the user is:
+
+<query>
+
+The reference data for the given query is:
+
+<reference_data>
+
+The current plan is:
+
+<current_plan>
+
+
+The every generated action should follow the JSON format as below:
+
+    {
+        "day": day number,
+        "current_city": "from one city to one another",
+        "transportation": "transportation, from one city to one another",
+        "breakfast": "-",
+        "attraction": "-",
+        "lunch": "-",
+        "dinner": "-",
+        "accommodation": "accommodation name"
+    },
+    OR
+    {
+        "day": day number,
+        "current_city": "city name",
+        "transportation": "-",
+        "breakfast": "restaurant name",
+        "attraction": "attraction name",
+        "lunch": "restaurant name",
+        "dinner": "restaurant name",
+        "accommodation": "accommodation name"
+    },
+    OR
+    {
+        "day": last day number,
+        "current_city": "from one city to another",
+        "transportation": "transportation, from one city to another",
+        "breakfast": "-",
+        "attraction": "-",
+        "lunch": "-",
+        "dinner": "-",
+        "accommodation": "-"
+    },
+
+
+The rules you need to follow are as below :
+1. A N-day trip has N-1 nights. If there are K cities to visit, the minimum nights of accommodation has to be less than or equal to (N-1)/K.
+2. If no number of people are mentioned in the query, you should assume only 1 person is travelling.
+3. If the query mentions "group of N" people, you should assume N number of people travelling. "maximum occupancy" = N.
+4. Traveling from one city to another needs an explicit transportation, which can cost a whole day. The next day of traveling should include attraction and restaurants, not transportation.
+5. The generated actions should be on the same day which is the next day to the current plan.
+6. The first day is a travel day, and the restaurants and attraction are all "-".
+7. On the last day, the plan should return to the starting city. The action for the last day has no restaurants, attractions or accommodations which should be all "-".
+8. When selecting restaurants and accommodation for a single day, try you best to select cheapest ones.
+9. When the maximum occupancy is less than number of people in the query, you can book multiple rooms to satisfy the query, and accommodation cost will be also multiplied by the number of rooms to book
+
+Strictly follow the format and rules specified above !!!
+
+

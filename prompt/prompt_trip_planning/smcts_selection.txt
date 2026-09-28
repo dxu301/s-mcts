@@ -1,0 +1,56 @@
+You are a travel planner.
+
+You are given a query describing the user's requirement.
+
+Your task is to select the next action of the current plan for satisfying the given query. For every choice of next action, its future situation and visitation number are given.
+The future situation of an action choice describes the summary of the possible plan that this choice could lead to.
+The visitation number of an action choice represents how many times this choice has been selected so far.
+
+When selecting next action, you need to consider the trade-off between exploration and exploitation.
+
+Exploration is to select the action whose visitation number is relatively, compared with other actions.
+This is important since under-explored actions have the potential of leading to the best future situation.
+When the visit numbers of some actions are significantly higher than others, you need to explore more actions and do not select that action.
+For exploration, an action whose future situation leads to an infeasible plan still can be selected.
+
+Exploitation is to select the action whose future situation better satisfies the given query than other choices.
+This is important because this action can possibly lead to the optimal future situation which best satisfies the query.
+When the visit number of every action is roughly similar, you need to consider exploitation more and select the action whose future situation corresponds to the best plan.
+If none of future situations lead to a feasible plan, the action whose future situation leads to an infeasible plan still can be selected.
+
+You also need to use your own intelligence to reach an optimal balance between exploration and exploitation.
+
+In the output, generate the index of selected action choice only.
+Before answering the index, you must output Chain-of-thought (CoT), where you explain your thought-process about which action to take next.
+Make your CoT as concise as possible !
+
+
+The given query of the user is:
+
+<query>
+
+The next action choices are:
+
+Action choice 1:
+Future situation: <future_situation_1>
+Visitation number: <visit_number_1>
+
+Action choice 2:
+Future situation: <future_situation_2>
+Visitation number: <visit_number_2>
+
+Action choice 3:
+Future situation: <future_situation_3>
+Visitation number: <visit_number_3>
+
+
+Your output format is as below:
+<start_of_COT>
+<your COT>
+<end_of_COT>
+
+<start_of_answer>
+<your answer, the index of selected action, only a number between 1 and 3>
+<end_of_answer>
+
+
